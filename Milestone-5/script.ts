@@ -110,7 +110,7 @@
   
   
     const username = name ? name.toLowerCase().replace(/\s+/g, '-') : 'user';  //Generate username from the name
-    const baseUrl = 'http://127.0.0.1:5500/index.html#1/'; // Your Vercel deployment URL
+    const baseUrl = 'hackathon-milestone-5-ivory.vercel.app'; // Your Vercel deployment URL
     const uniqueResumeUrl = `${baseUrl}?/${username}`; // Create unique URL      
   
   //-----------------------------------------------------------Set the resume link in the DOM
